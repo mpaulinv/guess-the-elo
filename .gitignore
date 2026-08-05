@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data - large, regenerable from scripts, not code
+data/
+data_extraction_log.txt
+
+# Trained model checkpoints and metrics - large binaries, not code
+models/
+
+# Node / web build artifacts
+web/node_modules/
+web/dist/
+
+# Excel lock files
+~$*.xlsx
+
+# Unrelated dataset that ended up in scripts/ (network-intrusion detection
+# data from an unrelated technical assessment, nothing to do with this
+# project) - not code, shouldn't be committed
+scripts/UNSW-NB15_1.csv
+scripts/UNSW-NB15_2.csv
+scripts/UNSW-NB15_3.csv
+scripts/UNSW-NB15_4.csv
+scripts/UNSW-NB15_LIST_EVENTS.csv
+scripts/UNSW_NB15_testing-set.csv
+scripts/UNSW_NB15_training-set.csv
+scripts/NUSW-NB15_features.csv
+scripts/mario_tech_assessment.ipynb
+
+# OS
+.DS_Store
+Thumbs.db

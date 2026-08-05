@@ -1,0 +1,9 @@
+# app/requirements.txt - lean, matches exactly what app/main.py + app/inference.py
+# need for inference. Deliberately does NOT reuse the repo-root requirements.txt
+# (that one carries pandas/sklearn/google-cloud/etc. for training and other
+# scripts, none of which the prediction API needs).
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+numpy==1.24.3
+torch==2.4.1
